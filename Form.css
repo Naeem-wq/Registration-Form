@@ -1,0 +1,29 @@
+#Header{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+Form{
+    text-align: center;
+}
+
+
+#About{
+    
+    padding-bottom: 5rem;
+}
+
+#Submit{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    border-right-style: solid;
+}
+
+input[placeholder]{
+    color:grey  !important;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: red;
+}

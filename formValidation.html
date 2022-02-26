@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Registration Form</title>
+
+    <link rel="stylesheet" href="./Form.css">
+
+</head>
+
+<body>
+
+    <br><br>
+    <h1 id="Header">Registration Form</h1>
+    <br>
+
+    <form action="php" method="get" class="Registration Form">
+
+        <div class="Registration Form">
+            <label for="User ID">User ID: </label>
+            <input type="User ID" name="User ID" id="User ID" placeholder="Required! 5-12 Characters!">
+        </div>
+        <br>
+
+        <div class="Registration Form">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Required! 8-12 Characters!">
+        </div>
+        <br>
+
+        <div class="Registration Form">
+            <label for="Name">Name :</label>
+            <input type="Name" name="Name" id="Name" placeholder="Required!">
+        </div>
+        <br>
+
+        <div class="Registration Form">
+            <label for="Address">Address :</label>
+            <input type="Address" name="Address" id="Address" placeholder="Optional">
+        </div>
+        <br>
+
+        <div class="Registration Form">
+            <label for="Country">Country :</label>
+            <select name="Country" id="Country">
+                <option value="">Please Select a Country </option>
+                <option value="">USA</option>
+                <option value="">Russia</option>
+                <option value="">South Africa</option>
+                <option value="">Australia</option>
+                <option value="">Germany</option>
+            </select>
+        </div>
+        <br>
+
+        <div class="Registration Form">
+            <label for="ZIP Code">ZIP Code: </label>
+            <input type="ZIP Code" name="ZIP Code" id="ZIP Code" placeholder="Optional">
+        </div>
+        <br>
+
+        <div class="Registration Form">
+            <label for="Email"> Email: </label>
+            <input type="text" name="Email" id="Email" placeholder="Required!">
+        </div>
+        <br>
+
+        <div class="Registration Form">
+                <label for="Sex">Sex: </label>
+                <input type="radio" id="Male" name="Sex" value="Male" placeholder="Required!"> Male
+              
+                <label for="dewey"></label>
+                <input type="radio" id="Female" name="Sex" value="Female" placeholder="Required1"> Female
+        </div>
+        <br>
+
+        <div class="Registration Form">
+            <label for="Language">Language: </label>
+            <input type="radio" id="Language" name="Language" value="English" placeholder="Required!"> English
+          
+            <label for="Language"></label>
+            <input type="radio" id="Language" name="Language" value="Non English" placeholder="Required1"> Non English
+        </div>
+        <br>
+    
+        <div class="Registration Form">
+            <label for="About"> About: </label>
+            <input type="text" name="About" id="About" placeholder="Optional">
+        </div>
+        <br>
+
+        <div class="Registration Form">
+                <input type="Submit" id="Submit" value="Submit">
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>
