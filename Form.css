@@ -24,11 +24,8 @@ form{
     padding: 1rem 5rem;
 }
 
-input{
-}
-
 input[placeholder]{
-    color:grey  !important;
+    color:grey;
     font-weight: bold;
 }
 
